@@ -1,5 +1,13 @@
+import './App.css';
+import ProjectCard from './components/ProjectCard';
+
 function App() {
-  return <h1>Hello React</h1>;
+  return (
+    <div>
+      <ProjectCard name="Project One" title="First React Component" />
+      <ProjectCard name="Project Two" title="Learning Props" />
+    </div>
+  );
 }
 
 export default App;
